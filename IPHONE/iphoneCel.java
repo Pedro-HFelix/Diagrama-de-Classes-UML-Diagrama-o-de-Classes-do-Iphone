@@ -1,6 +1,5 @@
 package IPHONE;
 
-import java.util.Scanner;
 import apps_Iphone.AparelhoTelefonico.atender;
 import apps_Iphone.AparelhoTelefonico.iniciarCorrerioVoz;
 import apps_Iphone.AparelhoTelefonico.ligar;

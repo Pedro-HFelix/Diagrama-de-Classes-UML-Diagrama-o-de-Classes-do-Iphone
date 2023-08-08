@@ -65,6 +65,7 @@ public class usuario {
                    break;
            }
         }
+        leitor.close();
     }
 
     
