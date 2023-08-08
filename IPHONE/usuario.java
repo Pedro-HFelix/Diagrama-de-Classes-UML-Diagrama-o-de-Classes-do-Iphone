@@ -36,6 +36,8 @@ public class usuario {
             switch (armazenamento) {
                 case "ESCOLHER":
                     buscaLeitorIphone.selecionarMusica();
+                    String musica = leitor.nextLine();
+                    System.out.println("A MUSICA ESCOLHIDA FOI: " + musica);
                     break;
             case "PAUSAR":
                     buscaLeitorIphone.pausar();
@@ -58,7 +60,9 @@ public class usuario {
                    buscaLeitorIphone.iniciarCorrerioVoz();
                    break;
            case "LIGAR": 
-                   buscaLeitorIphone.ligar();
+                    buscaLeitorIphone.ligar();
+                    String numero = leitor.nextLine();
+                    System.out.println("Ligando para o numero: " + numero);
                default:
                    break;
            }

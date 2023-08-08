@@ -11,8 +11,6 @@ import apps_Iphone.reprodutorMusical.pausar;
 import apps_Iphone.reprodutorMusical.selecionarMusica;
 import apps_Iphone.reprodutorMusical.tocar;
 public class iphoneCel implements atender,iniciarCorrerioVoz,ligar,adicionarNovaAba,Atualizarpagina,exibirPagina,pausar,selecionarMusica,tocar {
-    Scanner leiScanner= new Scanner(System.in);
-
     public void atender(){
         System.out.println("ATENDIDO");
     }
@@ -31,9 +29,8 @@ public class iphoneCel implements atender,iniciarCorrerioVoz,ligar,adicionarNova
 
     @Override
     public void selecionarMusica() {
-       System.out.println("ESCOLHER MUSICA");
-       String musica = leiScanner.nextLine();
-       System.out.println("A MUSICA ESCOLHIDA FOI: " + musica);
+       System.out.println("ESCOLHA A MUSICA");
+       
     }
 
 
@@ -64,8 +61,7 @@ public class iphoneCel implements atender,iniciarCorrerioVoz,ligar,adicionarNova
     @Override
     public void ligar() {
        System.out.println("LIGAR");
-       String numero = leiScanner.nextLine();
-        System.out.println("Ligando para o numero: " + numero);
+       
     }
     
     
