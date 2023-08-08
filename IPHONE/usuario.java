@@ -2,8 +2,6 @@ package IPHONE;
 
 import java.util.Scanner;
 
-import apps_Iphone.navegador.adicionarNovaAba;
-
 public class usuario {
     public static void main(String[] args) {
         iphoneCel buscaLeitorIphone = new iphoneCel();
